@@ -6,19 +6,19 @@ Unreal Engine 5를 익히며 기본 기능을 하나씩 직접 만들어 본 프
 
 | 폴더 | 내용 |
 | --- | --- |
-| `Hello_Unreal` | 언리얼 에디터와 블루프린트 기초 |
-| `EX2`, `Ex3` | 3인칭 캐릭터 조작, 블루프린트 기능 구현 |
-| `Ex4_GameState` | GameMode·GameState로 게임 규칙과 점수 관리 |
-| `animProject` | 애니메이션 블루프린트와 상태 머신 |
-| `vehicle` | 차량 물리 |
+| `Hello_Unreal` | 첫 언리얼 프로젝트 |
+| `EX2`, `Ex3` | 3인칭 템플릿 기반 블루프린트 실습 |
+| `Ex4_GameState` | GameState 실습 |
+| `animProject` | 애니메이션 실습 |
+| `vehicle` | 차량 실습 |
 | `HackAndSlashTemp` | 핵앤슬래시 전투 프로토타입 (몬스터, 화살·대포 발사체, 코인 획득과 인벤토리) |
-| `migration` | 프로젝트 간 에셋 마이그레이션 |
+| `migration` | 에셋 마이그레이션 실습 |
 
 ## 다룬 내용
 
-- 블루프린트 클래스 상속과 컴포넌트
-- 델리게이트(이벤트 디스패처)로 오브젝트 간 통신 (`BP_CountBox_Deligate`)
-- 발사체(`BP_Arrow`, `BP_Bullet`, `BP_Cannon`)와 충돌 처리
+- 블루프린트 클래스와 컴포넌트
+- 델리게이트 실습 (`BP_CountBox_Deligate`)
+- 발사체(`BP_Arrow`, `BP_Bullet`, `BP_Cannon`)
 - 코인 획득과 인벤토리(`BP_CoinGet`, `BP_CoinInven`)
 - 몬스터 애니메이션 블루프린트
 
